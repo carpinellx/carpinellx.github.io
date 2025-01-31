@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    background-color: #222831;
+
+    color: #EEEEEE;
+
+    line-height: 1.6;
+  }
+
+  .main-title {
+
+    margin-right: auto; /* alinha o título "Victor Carpinelli" a esquerda */
+
+  }
+
+  .main-header {
+
+    display: flex; 
+
+    justify-content: space-between; /* alinha os elementos de forma que o espaço entre eles seja o mesmo */
+
+    background-color: #222831; 
+
+    border-bottom: 10px solid #00ADB5; 
+
+    padding: 10px 20px; 
+
+    align-items: center;
+    
+  }
+
+  .main-nav ul {
+
+  list-style: none; /* remove os marcadores "o" de lista */
+
+  margin: 0;
+
+  padding: 0;
+
+  display: flex; /* transforma a lista em um container flexível */
+
+  }
+  
+  .main-nav li {
+
+    margin-right: 20px; /* adiciona espaçamento entre os itens da lista */
+
+    padding-right: 40px; /* adiciona espaçamento interno */
+
+    font-size: 20px;
+
+    font-family: "Noto Serif Hentaigana", serif;
+    
+  }
+
+  .main-nav a {
+
+    text-decoration: none; /* remove o sublinhado dos links */
+
+    color: #00ADB5; /* define a cor dos links */
+
+  }
+
+  .main-nav a:hover {
+
+    color: #EEEEEE; /* define a cor dos links ao passar o mouse */
+
+  }
+
+
+  .about-card {
+
+    display: flex; /* Ativa o Flexbox no card */
+
+    flex-direction: column; /* Alinha os itens verticalmente */
+
+    align-items: center; /* Centraliza os itens horizontalmente */
+
+    background-color: #393E46; /* cor de fundo do card */
+    
+    border-radius: 8px;
+
+    padding: 40px;
+
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+    width: 50%;
+
+    margin: 40px auto;
+
+  }
+
+  .container-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .btn {
+
+    background-color: #00ADB5; 
+
+    color: #fff; 
+
+    height: 60px;
+
+    font-size: 20px;
+
+    line-height: 60px;
+
+    padding-left: 70px;
+
+    padding-right: 70px; 
+
+    border-radius: 5px;
+
+    text-decoration: none; 
+
+    transition: all 0.2s cubic-bezier(0,1.56,.67,1.31);
+
+  }
+  
+  .btn:hover {
+
+    transform: scale(1.1);
+
+    background-color: #EEEEEE; 
+
+    color: #00ADB5;
+
+  }
