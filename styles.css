@@ -206,3 +206,17 @@
 
     border-radius: 300px;
   }
+
+  a[href^="mailto:"] {
+    
+    text-decoration: none;
+
+    color: #EEEEEE;
+
+  }
+
+  a[href^="mailto:"]:hover {
+
+    color: #00ADB5; /* Cor ao passar o mouse */
+
+  }
