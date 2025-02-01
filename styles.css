@@ -220,3 +220,23 @@
     color: #00ADB5; /* Cor ao passar o mouse */
 
   }
+
+  .container-training {
+    
+    display: flex; /* ativa o Flexbox no card */
+
+    justify-content: center;
+
+    background-color: #393E46;
+
+    border-radius: 8px;
+
+    padding: 40px;
+
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+    width: 50%;
+
+    margin: 100px auto;
+
+  }
